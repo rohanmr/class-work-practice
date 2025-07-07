@@ -6,37 +6,68 @@
     <link rel="icon" href="./user.png" />
     <title>Rohan Maindarkar</title>
     <style>
+      * {
+        font-family: cursive;
+      }
       body {
-        background-color: beige;
+        background-color: white;
       }
       p {
         font-size: x-large;
+        padding: 20px;
+        text-align: center;
+        margin: 20px;
+      }
+      div {
+        width: 50%;
+        float: left;
+      }
+      button {
+        background-color: blueviolet;
+        padding: 10px 20px;
+        border-radius: 20px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: larger;
+      }
+      button:hover {
+        background-color: rgb(141, 53, 158);
+      }
+      img {
+        display: block;
+        margin: 10px auto;
+        width: 40%;
       }
     </style>
   </head>
   <body>
     <header>
-      <h1 style="text-align: center; color: blueviolet">Resume</h1>
+      <!-- <h1 style="text-align: center; color: blueviolet">Resume</h1> -->
       <h1 style="text-align: center; color: blueviolet">Rohan Maindarkar</h1>
     </header>
     <nav></nav>
     <main>
       <section>
         <div>
-          <p>
+          <p style="padding: 10px">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
             at optio voluptates. Maxime fuga qui magnam odit excepturi corrupti
             modi id quisquam odio necessitatibus pariatur maiores quibusdam
             ducimus expedita aliquid, reprehenderit culpa deserunt dolor placeat
             similique laboriosam? Rem, vitae esse.
           </p>
+          <div style="margin-left: 25%">
+            <button>Click Me For More Inforamation</button>
+          </div>
         </div>
-        <div>
+        <div style="margin-top: 10px">
           <!-- <img alt="user Image" src="./user.png" width="100%" height="500px" /> -->
           <img alt="user Image" src="./user.png" style="border-radius: 50%" />
         </div>
       </section>
     </main>
+
     <footer>&copy; Rohan Maindarkar</footer>
   </body>
 </html>
