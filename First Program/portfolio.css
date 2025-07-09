@@ -1,0 +1,117 @@
+* {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+p {
+  font-size: x-large;
+  text-align: center;
+  margin: 20px;
+}
+.mainDiv div {
+  width: 50%;
+  float: left;
+}
+button {
+  background-color: blueviolet;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: larger;
+}
+button:hover {
+  background-color: #8d359e;
+}
+img {
+  display: block;
+  margin: 10px auto;
+  width: 40%;
+}
+.topNav {
+  background-color: blueviolet;
+  height: 45px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+.infoIcon {
+  display: flex;
+  align-items: center;
+}
+.infoText {
+  font-size: larger;
+}
+i {
+  margin: 8px;
+  color: white;
+  font-size: 25px;
+}
+
+.linkIcon:link {
+  color: white;
+}
+i:hover {
+  color: #8d359e;
+}
+.infoIcon:visited {
+  color: white;
+}
+.navList {
+  list-style-type: none;
+}
+nav {
+  height: 50px;
+  background-color: black;
+  margin-bottom: 40px;
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: larger;
+  padding: 10px;
+  align-items: center;
+}
+.navItem:link {
+  color: white;
+  text-decoration: none;
+}
+
+.navItem:hover {
+  color: blueviolet;
+}
+
+.navItem:visited {
+  color: white;
+}
+.listItem {
+  display: inline-block;
+}
+.heading {
+  font-size: x-large;
+  text-align: center;
+  font-weight: lighter;
+  margin: 20px 0;
+  background-color: black;
+  color: white;
+  padding: 5px 0;
+}
+.goTop {
+  width: 50px;
+  margin: 20px;
+  padding: 2px;
+  border-radius: 50px;
+  border: 2px solid blueviolet;
+}
+.goTop i {
+  color: black;
+}

@@ -4,58 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./user.png" />
+    <link rel="stylesheet" href="./portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Rohan Maindarkar</title>
-    <style>
-      * {
-        font-family: cursive;
-      }
-      body {
-        background-color: white;
-      }
-      p {
-        font-size: x-large;
-        padding: 20px;
-        text-align: center;
-        margin: 20px;
-      }
-      div {
-        width: 50%;
-        float: left;
-      }
-      button {
-        background-color: blueviolet;
-        padding: 10px 20px;
-        border-radius: 20px;
-        color: white;
-        border: none;
-        cursor: pointer;
-        font-size: larger;
-      }
-      button:hover {
-        background-color: rgb(141, 53, 158);
-      }
-      img {
-        display: block;
-        margin: 10px auto;
-        width: 40%;
-      }
-    </style>
   </head>
   <body>
     <header>
       <!-- <h1 style="text-align: center; color: blueviolet">Resume</h1> -->
-      <h1 style="text-align: center; color: blueviolet">Rohan Maindarkar</h1>
+      <div id="top" class="topNav">
+        <div class="infoIcon">
+          <i class="fa-solid fa-envelope"></i
+          ><span class="infoText">maindarkarrohan@yahoo.com</span>
+          <i class="fa-solid fa-phone"></i
+          ><span class="infoText">9022467707</span>
+        </div>
+        <div class="socialLink">
+          <a href="#" class="linkIcon"><i class="fa-brands fa-github"></i></a>
+          <a href="#" class="linkIcon"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" class="linkIcon"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+        </div>
+      </div>
     </header>
-    <nav></nav>
+    <nav>
+      <ul class="navList">
+        <li class="listItem"><a href="#mainPage" class="navItem">Home</a></li>
+        <li class="listItem">
+          <a href="#education" class="navItem">Education</a>
+        </li>
+        <li class="listItem">
+          <a href="#perInfo" class="navItem">Personal Info</a>
+        </li>
+        <li class="listItem">
+          <a href="#project" class="navItem">Projects</a>
+        </li>
+      </ul>
+    </nav>
     <main>
-      <section>
+      <section id="mainPage" class="mainDiv">
         <div>
-          <p style="padding: 10px">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            at optio voluptates. Maxime fuga qui magnam odit excepturi corrupti
-            modi id quisquam odio necessitatibus pariatur maiores quibusdam
-            ducimus expedita aliquid, reprehenderit culpa deserunt dolor placeat
-            similique laboriosam? Rem, vitae esse.
+          <h1
+            style="font-size: xx-large; text-align: center; color: blueviolet"
+          >
+            Rohan Maindarkar
+          </h1>
+          <p>
+            A Normal Student of CSE Background having interest in Web
+            Development and upcoming new Technology and my goal is to be a MERN
+            Stack developer.
           </p>
           <div style="margin-left: 25%">
             <button>Click Me For More Inforamation</button>
@@ -66,8 +69,27 @@
           <img alt="user Image" src="./user.png" style="border-radius: 50%" />
         </div>
       </section>
-    </main>
+      <div style="clear: left"></div>
+      <section id="perInfo">
+        <h1 class="heading"><i style="color: white;" class="fa-solid fa-file"></i>Personal Info</h1>
+        <div style="height: 200px">
+         <i style="color: blueviolet;" class="fa-solid fa-user"></i>Name: Rohan Maindarkar
+          <address>  <i style="color: blueviolet;" class="fa-solid fa-location-dot"></i>C 605 Casa Imperia Wakad Hinjiwadi</address>
+        </div>
+      </section>
+      <section id="education">
+        <h1 class="heading"><i style="color: white;" class="fa-solid fa-user-graduate"></i>Education</h1>
+        <div style="height: 200px"></div>
+      </section>
 
-    <footer>&copy; Rohan Maindarkar</footer>
+      <section id="project">
+        <h1 class="heading"><i style="color: white;"  class="fa-solid fa-computer"></i>Projects</h1>
+        <div style="height: 200px"></div>
+      </section>
+    </main>
+    <div class="goTop"><a class="goToUp" href="#top"><i class="fa-solid fa-chevron-up"></i></a></i></div>
+    <footer style="margin: 30px 0px; text-align: center">
+      &copy; Rohan Maindarkar
+    </footer>
   </body>
 </html>
