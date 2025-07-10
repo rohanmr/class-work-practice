@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  height: 60px;
+  background: black;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 50px;
+  margin-left: 30px;
+  height: 60px;
+}
+.leftNav {
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.navItem {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+.navLink:hover {
+  color: red;
+}
+.rightNav {
+  padding-right: 30px;
+  display: flex;
+}
+.rightLink {
+  margin-right: 20px;
+  font-size: large;
+}
+
+.navIcon {
+  margin-left: 20px;
+  font-size: larger;
+}
+.iconLink:hover {
+  color: red;
+}
+
+.iconLink {
+  color: white;
+  text-decoration: none;
+}
