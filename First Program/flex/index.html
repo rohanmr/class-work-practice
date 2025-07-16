@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contianer {
+            display: flex;
+            background-color: rgb(7, 7, 92);
+            height: 100px;
+            align-items: center;
+            margin: 10px;
+            padding: 10px 20px;
+            /* gap: 10px; */
+
+        }
+
+        .itam {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70px;
+            height: 70px;
+            color: white;
+            background-color: blue;
+        }
+
+        .long {
+            width: auto;
+
+        }
+
+        .itam2 {
+            display: flex;
+            padding-left: 20px;
+            justify-content: left;
+            align-items: center;
+            flex-grow: 1;
+            width: 70px;
+            height: 70px;
+            color: white;
+            background-color: blue;
+        }
+
+        .itam3 {
+            display: flex;
+            padding-left: 20px;
+            justify-content: left;
+            align-items: center;
+            flex-grow: 1;
+            width: 70px;
+            height: 70px;
+            color: white;
+            background-color: blue;
+        }
+
+        .itam3:nth-child(3) {
+            width: 30%;
+            background-color: green;
+        }
+
+
+
+        .itam4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70px;
+            height: 70px;
+            color: white;
+            background-color: blue;
+        }
+
+        .long4 {
+            width: auto;
+            flex-grow: 1;
+        }
+
+        .itam4:nth-child(3) {
+            justify-content: left;
+            padding-left: 20px;
+            background-color: green;
+        }
+
+        .itam5 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70px;
+            height: 70px;
+            color: white;
+            background-color: blue;
+        }
+
+
+        .itam6 {
+            display: flex;
+            justify-content: left;
+            padding-left: 20px;
+            align-items: center;
+            width: 70px;
+            height: 70px;
+            color: white;
+            background-color: blue;
+        }
+
+        .itam6:nth-child(3) {
+            background-color: orange;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>01</h3>
+    <div class="contianer">
+        <div class="itam">Child</div>
+        <div class="itam long">This is some longer content</div>
+        <div class="itam">Child</div>
+    </div>
+    <h3>02</h3>
+    <div class="contianer">
+        <div class="itam2">Child</div>
+        <div class="itam2">Child</div>
+        <div class="itam2">Child</div>
+    </div>
+    <h3>03</h3>
+    <div class="contianer">
+        <div class="itam3">Child</div>
+        <div class="itam3">Child</div>
+        <div class="itam3">Child</div>
+    </div>
+    <h3>04</h3>
+    <div class="contianer">
+        <div class="itam4">Child</div>
+        <div class="itam4 long4">This is some longer content that goes here and to be honest we should be wary of
+            chnages.
+        </div>
+        <div class="itam4">Child</div>
+    </div>
+    <h3>05</h3>
+    <div class="contianer">
+        <div class="itam5">Child</div>
+        <div class="itam5">Child</div>
+        <div class="itam5">Child</div>
+    </div>
+    <h3>06</h3>
+    <div class="contianer">
+        <div class="itam6">Child</div>
+        <div class="itam6">Child</div>
+        <div class="itam6">Child</div>
+    </div>
+</body>
+
+</html>
