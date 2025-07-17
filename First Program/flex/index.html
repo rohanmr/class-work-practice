@@ -110,6 +110,88 @@
             background-color: orange;
             flex-grow: 1;
         }
+
+        .container7 {
+            display: flex;
+            background-color: rgb(7, 7, 92);
+            height: 200px;
+            align-items: center;
+            margin: 10px;
+            padding: 10px 20px;
+        }
+
+        .itam7 {
+            display: flex;
+            justify-content: left;
+            padding: 20px;
+            /* align-items: center; */
+            width: 100px;
+            height: 100px;
+            color: white;
+            background-color: blue;
+        }
+
+        .itam7:nth-child(2) {
+            width: 40%;
+            height: 100px;
+        }
+
+        .itam7:nth-child(3) {
+            background-color: orange;
+            flex-grow: 1;
+        }
+
+
+
+        .container8 {
+            display: flex;
+            padding: 20px;
+            flex-direction: column;
+            background-color: #001f3f;
+            border: 3px solid #001f3f;
+            height: 200px;
+            overflow-y: auto;
+        }
+
+        .row {
+            display: flex;
+
+        }
+
+        .child {
+            width: 70px;
+            height: 70px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+
+        }
+
+        .child-3 {
+            width: 70px;
+            height: 70px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            color: white;
+        }
+
+        .blue {
+            background-color: #0074D9;
+        }
+
+        .orange {
+            background-color: #FF851B;
+        }
+
+        .wide {
+            width: 1200px;
+            flex-grow: 1;
+
+        }
     </style>
 </head>
 
@@ -151,6 +233,23 @@
         <div class="itam6">Child</div>
         <div class="itam6">Child</div>
         <div class="itam6">Child</div>
+    </div>
+    <h3>07</h3>
+    <div class="container7">
+        <div class="itam7">Child</div>
+        <div class="itam7">And this is a lot of content, okay? Okay? And this is a lot of content, okay? Okay? And this
+            is a lot of content, okay? Okay? And this is a lot of content, okay? Okay? And this is a lot of content,
+            okay? Okay? And this is a lot of content, okay? Okay? </div>
+        <div class="itam7">Child</div>
+    </div>
+    <h3>08</h3>
+
+    <div class="container8">
+        <div class="row">
+            <div class="child blue">child</div>
+            <div class="child blue">child</div>
+        </div>
+        <div class="child-3 orange wide">child</div>
     </div>
 </body>
 
