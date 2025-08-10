@@ -6,7 +6,7 @@ console.log("assition of  x and y :", x+y);
 console.log("diffrance:",x-y);
 
 
-fevorateMovi = "Narshimaa";
+fevorateMovi = "Spiderman";
 message='I Love to watch ' + fevorateMovi;
 console.log(message);
 
